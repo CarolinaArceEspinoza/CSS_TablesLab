@@ -138,6 +138,10 @@ tr:nth-child(odd) {
 #s1 td img{
     width: 100%;
     height: auto;
+    transition: all 0.3s ease-in-out;
+}
+#s1 td img:hover{
+    scale: 119%;
 }
 #s1 th {
     background-color: #7ea1af;
